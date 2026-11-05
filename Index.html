@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#176b3a">
+    <title>Tractor Connect</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f1;
+            color: #203328;
+        }
+
+        header {
+            background: #176b3a;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin-bottom: 0;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 25px auto;
+            padding: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 22px;
+            margin-bottom: 18px;
+            border-radius: 14px;
+            box-shadow: 0 3px 12px #00000010;
+            text-align: center;
+        }
+
+        .card h2 {
+            margin-top: 5px;
+        }
+
+        .card p {
+            color: #647269;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 9px;
+            background: #176b3a;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #10532c;
+        }
+
+        .tractor {
+            font-size: 55px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #65756a;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚜 Tractor Connect</h1>
+    <p>किसान और ट्रैक्टर मालिक का साथी</p>
+</header>
+
+<main>
+
+    <section class="card">
+        <div class="tractor">👨‍🌾</div>
+        <h2>Farmer</h2>
+        <p>ट्रैक्टर बुक करें और अपने खेत का काम करवाएँ।</p>
+        <button onclick="farmerLogin()">
+            किसान प्रवेश
+        </button>
+    </section>
+
+    <section class="card">
+        <div class="tractor">🚜</div>
+        <h2>Tractor Owner</h2>
+        <p>अपने ट्रैक्टर और औजारों का काम मैनेज करें।</p>
+        <button onclick="ownerLogin()">
+            मालिक प्रवेश
+        </button>
+    </section>
+
+</main>
+
+<footer>
+    Tractor Connect © 2026
+</footer>
+
+<script>
+    function farmerLogin() {
+        alert("Farmer Registration जल्द शुरू होगा!");
+    }
+
+    function ownerLogin() {
+        alert("Tractor Owner Registration जल्द शुरू होगा!");
+    }
+</script>
+
+</body>
+</html>
